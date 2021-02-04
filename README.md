@@ -74,11 +74,10 @@ To help the user find their way about, the site layout has two navigation menus,
 The navigation system is easy to find and easy to follow. Each nav menu links to pages that aim to offer solutions to user requests.
 
 __nav Dropdown Menu__
-
 The top nav utilises a dropdown menu from one of five links, __Seeds__, which has three additional links to __Heirloom Seeds__, __Hybrid Seeds__, and __About Seeds__. This dropdown menu allows the user a more specific choice.
  
 __flex-nav Menu__
- 
+
 The flex-nav menu was originally a dropdown, a duplicate of __nav__
 but due to positioning and responsive issues, and time constraints, it was changed to a regular ole menu inside a flexbox. It contains the main five links only – from here, users need to get to the heirloom and hybrid seeds pages via Seeds.
 
@@ -88,17 +87,14 @@ There is a footer menu with links to the disclaimer and privacy policies (.polic
 A note on the contact page: should any user wish to contact the website owner, there are plenty of contact opportunities already on every page (email address top and bottom of each page, plus contact form). The decision was made to not clutter either navs (nav or flex-nav) with another link. This lack of clutter will be more user-friendly on handheld (small screen) devices.
 
 __Embedded Links__
-
 All written content includes __embedded links__ to take the user to more information on a specific topic. Some links lead to external sites, for example those in the Related Content section (lower page).
 
 __Feature 2: Forms__
-
 There are __two subscriber forms__ (.subscr), one at the very top of each page and one at the bottom, near the footer. The subscriber form is developed and designed as an unobtrusive call-to-action (CTA) to benefit users who wish to receive weekly updates (tips, advice, solutions).
 
 There are two email links (mailto:) at the top and bottom of every page to offer the user another form of making contact with questions or queries.
 
 __Feature 3: Downloads__
-
 The design aims to accommodate downloadable PDFs to offer the user an offline/printable version of the information they've been looking for.
 
 ### Features Left to Implement
@@ -106,7 +102,9 @@ The design aims to accommodate downloadable PDFs to offer the user an offline/pr
 * __Selector Tool__: would be a very useful feature to offer users (time constraints and lack of current skills means developing a working tool for this project is a bit beyond me at the moment);
 * __Recipes__ page, including downloadable PDFs;
 * __Site expansion__: include non-seasonal veg/herbs;
-* Blog: an active blog with comments enabled for healthy, open discussion between users.
+* __Blog__: an active blog with comments enabled for healthy, open discussion between users.
+* __Error 404__ page: not enough time to do this. Some of the links will lead to an error page.
+* __Title tags__: more of an SEO thing, but I would normally update these. Time restraints.
 
 
 ## Technologies Used
@@ -121,34 +119,19 @@ The design aims to accommodate downloadable PDFs to offer the user an offline/pr
     • Figma: used to create a wireframe as a mockup of design ideas before writing the code (creating the site).
 
 
-
-
-## Content
-
-__Written Content__
-
-__Media__
-
-
-
 ## Testing
 
 __<a name="test">User Stories Tested</a>__
-
+Tested all user scenarios and although only three pages are complete, the navigation is straightforward and will leave the user with multiple ways in and out.
 
 __Responsive Test__
-
+Extensive testing carried out throughout coding process. Problems with top-right email address, logo (Raising Tomatoes text), and the social media links in footer: _all_ have responsive issues. Due to time restraints, these issues were left unresolved.
 
 __Bugs Found__
-
 excessive-code-footer.png
 excessive-code-footer-FIX.png
-
-02.02.21
-********
 hr-border-issue.png: <hr> displays single-px grey border on top.
 FIX: set border-color same as background-color
-
 
 
 ## Problems/Issues
@@ -165,21 +148,22 @@ FIX: set border-color same as background-color
 10. UNRESOLVED: Fix form on lower end of each page (lwr-flex-left): textarea displays ever-so-slightly shorter than Name and Email when using size attribute – I had size="40" for both fields, and textarea set to rows=”5” cols=”5”, but textarea displayed shorter than the other two so I reset Name and Email to size=”20”. I would like to know what the problem is.
 11. __RESOLVED__: hr-border-issue.png: <hr> displays single-px grey border on top. FIX: set border-color same as background-color.
 12. __RESOLVED__: Excessive code in stylesheet. FIX: removed.
-
-
-
+13. UNRESOLVED: Social media links, top-of-page email, and logo are semi-responsive – i.e. they reduce in size nicely down to mobile phone size.
 
 
 ## Deployment
+First deployment a few hours ago – MAJOR problems with commits: they weren't showing up in Github and for about an hour, I thought all was lost.
 
+After all was resolved – and I had started over in the meantime – I realised I had initially committed README.md 7 days ago. I had forgotten about this – it was an empty "draft", so there are likely two commits claiming to be "initial".
 
 
 ## Content
 
 __Written Content__
-
+All written content was created and written by the developer.
 
 __Media__
+All photos used on RaisingTomatoes(dot)com are from: marysheirloomseeds.com
 
 
 ## Acknowledgements
