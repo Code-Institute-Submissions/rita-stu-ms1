@@ -111,14 +111,14 @@ The design aims to accommodate downloadable PDFs to offer the user an offline/pr
 
 ## Technologies Used
 
-    • __HTML__
-    • __CSS__: employed to enhance the html code. CSS ideas from w3schools were utilised, in particular flexboxes, responsive design code and Google fonts code.
-    • __Google fonts__: two Google fonts were used throughout the site – Roboto and Exo
-    • __Bootstrap__ v4.3: nav menu with dropdown function was used for the main navigation menu
-    • __GIMP__: used to resize images and create .png versions
-    • __Gitpod__: used to write code and documentation for deployment to Github.
-    • __Github__: used to store the project as a live site for reveiw by assessors.
-    • __Figma__: used to create a wireframe as a mockup of design ideas before writing the code (creating the site).
+    • HTML
+    • CSS: employed to enhance the html code. CSS ideas from w3schools were utilised, in particular flexboxes, responsive design code and Google fonts code.
+    • Google fonts: two Google fonts were used throughout the site – Roboto and Exo
+    • Bootstrap v4.3: nav menu with dropdown function was used for the main navigation menu
+    • GIMP: used to resize images and create .png versions
+    • Gitpod: used to write code and documentation for deployment to Github.
+    • Github: used to store the project as a live site for reveiw by assessors.
+    • Figma: used to create a wireframe as a mockup of design ideas before writing the code (creating the site).
 
 
 
