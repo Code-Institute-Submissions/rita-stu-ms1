@@ -52,7 +52,7 @@ To achieve this, the site needs to provide a lot of content in different formats
 
 __<a name="story">User Needs via User Stories</a>__
 
-Here are nine user stories of potential visitors looking for solutions about growing tomatoes.
+Here are nine user stories of potential visitors looking for solutions about growing tomatoes:
 
 1. As a user, I want to find information about the best type of tomatoes to grow in my area (re available space, climate, soil, etc) with a view to raising four or five different varities.
 2. A regualr user, I want to know where I can buy good heirloom tomato seeds.
@@ -66,7 +66,7 @@ These user needs are assessed in the [Testing](#test) section to see how and if 
 
 ## Features
 
-Existing Features
+### Existing Features
 
 __Feature 1: Navigation__
 To help the user find their way about, the site layout has two navigation menus, a main one top-right (__nav__), and a secondary menu centred just above the footer (.flex-nav).
@@ -74,10 +74,12 @@ To help the user find their way about, the site layout has two navigation menus,
 The navigation system is easy to find and easy to follow. Each nav menu links to pages that aim to offer solutions to user requests.
 
 __nav Dropdown Menu__
- The top nav utilises a dropdown menu from one of five links, __Seeds__, which has three additional links to __Heirloom Seeds__, __Hybrid Seeds__, and __About Seeds__. This dropdown menu allows the user a more specific choice.
 
- __flex-nav Menu__
- The flex-nav menu was originally a dropdown, a duplicate of __nav__
+The top nav utilises a dropdown menu from one of five links, __Seeds__, which has three additional links to __Heirloom Seeds__, __Hybrid Seeds__, and __About Seeds__. This dropdown menu allows the user a more specific choice.
+ 
+__flex-nav Menu__
+ 
+The flex-nav menu was originally a dropdown, a duplicate of __nav__
 but due to positioning and responsive issues, and time constraints, it was changed to a regular ole menu inside a flexbox. It contains the main five links only – from here, users need to get to the heirloom and hybrid seeds pages via Seeds.
 
 __Footer Nav__
@@ -96,20 +98,27 @@ There are __two subscriber forms__ (.subscr), one at the very top of each page a
 There are two email links (mailto:) at the top and bottom of every page to offer the user another form of making contact with questions or queries.
 
 __Feature 3: Downloads__
-The design aims to accommodate downloadable PDFs to offer the user an offline/printable version of the information they've been looking for (and have now found, hopefully).
 
+The design aims to accommodate downloadable PDFs to offer the user an offline/printable version of the information they've been looking for.
 
-Feature 1 allows users to ...
-Feature 2 ...
+### Features Left to Implement
 
-__Features Left to Implement__
-..* __Selector Tool__: would be a very useful feature to offer users (time constraints and lack of current skills means developing a working tool for this project is a bit beyond me at the moment).
-..* Recipes page, including downloadable PDFs
-..* Expand site with non-seasonal veg/herbs
-..* Blog: an active blog with comments enabled for healthy, open discussion between users.
+* __Selector Tool__: would be a very useful feature to offer users (time constraints and lack of current skills means developing a working tool for this project is a bit beyond me at the moment);
+* __Recipes__ page, including downloadable PDFs;
+* __Site expansion__: include non-seasonal veg/herbs;
+* Blog: an active blog with comments enabled for healthy, open discussion between users.
 
 
 ## Technologies Used
+
+    • __HTML__
+    • __CSS__: employed to enhance the html code. CSS ideas from w3schools were utilised, in particular flexboxes, responsive design code and Google fonts code.
+    • __Google fonts__: two Google fonts were used throughout the site – Roboto and Exo
+    • __Bootstrap__ v4.3: nav menu with dropdown function was used for the main navigation menu
+    • __GIMP__: used to resize images and create .png versions
+    • __Gitpod__: used to write code and documentation for deployment to Github.
+    • __Github__: used to store the project as a live site for reveiw by assessors.
+    • __Figma__: used to create a wireframe as a mockup of design ideas before writing the code (creating the site).
 
 
 
@@ -132,11 +141,30 @@ __Responsive Test__
 
 __Bugs Found__
 
+excessive-code-footer.png
+excessive-code-footer-FIX.png
+
+02.02.21
+********
+hr-border-issue.png: <hr> displays single-px grey border on top.
+FIX: set border-color same as background-color
 
 
 
+## Problems/Issues
 
-## Problems/issues
+1. __RESOLVED__: Resposive design not employed correctly in footer and header – text is not wrapping on smaller screen view, likely due to using the wrong type of code. Everywhere else it’s working as it should.
+2. __RESOLVED__: Bootstrap nav: can’t get it to align right, mentor suggested float property.
+3. UNRESOLVED: Bootstrap nav: cannot change the colour of the links, no matter how many things I try – list-item, nav-item, etc. Nothing worked. SOLUTION: Need to ask mentor tomorrow (if time).
+4. __RESOLVED__: Bootstrap nav: cannot get the position right. I wanted it as part of the top flexbox, and had to use -margin property (i.e. -20px), which will interfere with responsive design. SOLUTION: redo flexbox to incorporate it?? Might have to leave it as is, due to time restraints.
+5. UNRESOLVED but CHANGED: Social media links in footer: I did them as standard, did not take into account responsive design. SOLUTION: redo as flexbox. (no time)
+6. __RESOLVED__: Social media links in footer: I tried to use the FontAwesome icons but they don’t exist for most of these sm companies. For consistency, I didn’t use any. SOLUTION: create own icons using sm company logos. Display as small round images with each link embedded, or similar.
+7. UNRESOLVED: Subscribe (to Newsletter) box not complete. I don’t have the JS skills yet, but would like to have had a basic reaction, i.e. when link is clicked, form confirms subscription (says “thanks for subscribing” or similar).
+8. UNRESOLVED: Subscriber forms: cannot move script to any other position within html file. I don’t know why. Further, tried to use “required” for name element of form, but no luck so far (there’s no “name” attribute to add it to; I tried a couple of options but nothing changed so far.
+9. UNRESOLVED: Make galleries more user friendly (and a little prettier!): add popup, containing link to more detailed info, with brief info about each type of tomato, such as variety/breed, type (determinate/indeterminate), price, best breeders/sellers. Time constraints.
+10. UNRESOLVED: Fix form on lower end of each page (lwr-flex-left): textarea displays ever-so-slightly shorter than Name and Email when using size attribute – I had size="40" for both fields, and textarea set to rows=”5” cols=”5”, but textarea displayed shorter than the other two so I reset Name and Email to size=”20”. I would like to know what the problem is.
+11. __RESOLVED__: hr-border-issue.png: <hr> displays single-px grey border on top. FIX: set border-color same as background-color.
+12. __RESOLVED__: Excessive code in stylesheet. FIX: removed.
 
 
 
