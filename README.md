@@ -112,7 +112,7 @@ The design aims to accommodate downloadable PDFs to offer the user an offline/pr
 ## Technologies Used
 
     • HTML
-    • CSS: employed to enhance the html code. CSS ideas from w3schools were utilised, in particular flexboxes, responsive design code and Google fonts code.
+    • CSS: employed to enhance html code. CSS ideas from w3schools were utilised (in particular flexboxes), as was responsive design code.
     • Google fonts: two Google fonts were used throughout the site – Roboto and Exo
     • Bootstrap v4.3: nav menu with dropdown function was used for the main navigation menu
     • GIMP: used to resize images and create .png versions
